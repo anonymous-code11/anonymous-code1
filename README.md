@@ -67,6 +67,7 @@ Models used (update paths in scripts as needed):
 | `fewshot_equal_sample.py` | Equal-sample few-shot comparison |
 | `minimal_calibration_summary.py` | Summary statistics for calibration results |
 | `analyze_subspace.py` | Additional subspace analysis |
+| `negation_3x3.py` | Negation sensitivity test: 3 models × 3 datasets (CounterFact, FM Queries, PopQA) with bootstrap CI |
 
 ### Scripts
 
@@ -111,5 +112,6 @@ python mixed_domain_probe.py          # multi-domain mixed probe
 python split_half_reliability.py      # split-half reliability
 python surface_feature_baseline.py    # surface-feature baseline
 python cross_domain_editing.py        # cross-domain activation editing
+python negation_3x3.py                # negation sensitivity (3 models x 3 datasets)
 ```
 
